@@ -1,3 +1,7 @@
+div#overview {
+    background: pink;
+}
+
 /*.mw-collapsed:before {
     z-index: -1;
     content: "";
