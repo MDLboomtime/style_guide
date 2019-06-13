@@ -24,7 +24,7 @@
 }*/
 
 .mw-collapsible-wrapper{
-	margin-right: 35px;
+    margin-right: 35px;
     margin-left: 90px;
     position: relative;
     top: -10px;
@@ -40,6 +40,13 @@
 
 .mw-collapsible-toggle{
 	padding: 15px;
+}
+
+.mw-collapsible-toggle.ticket_creation {
+    border: 2px dashed #2db911;
+}
+.mw-collapsible-toggle.ticket_close {
+    border: 2px dashed #f03a17;
 }
 
 .large.icon_dp:before {
@@ -330,6 +337,16 @@ a.mw-collapsible-text {
     text-align: center;
     font-size: 27px;
     border-radius: 50%;
+}
+.icon_dp.ticket_creation:before {
+    content: "🏁";
+    background: lightgray;
+    border: 5px solid #2db911;
+}
+.icon_dp.ticket_close:before {
+    content: "⛳";
+    background: lightgray;
+    border: 5px solid #f03a17;
 }
 .icon_dp.engineer:before {
     content: "🛠️";
