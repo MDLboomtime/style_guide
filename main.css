@@ -288,7 +288,7 @@ a.mw-collapsible-text {
 /* ^^^ Gallery             ^^^ */
 /* --------------------------- */
 /* vvv Step                vvv */
-/*.step {
+.step {
     background: #ffffff;
     color: black;
     border: 1px solid #00000029;
@@ -299,13 +299,8 @@ a.mw-collapsible-text {
     text-align: center;
     font-size: 20px;
     font-weight: 700;
-}*/
-
-.step{
-	font-size: 20px;
-    font-weight: 700;
-    /*border-bottom: 1px solid #fff;*/
 }
+
 .platform .step {
     position: relative;
     top: -15px;
