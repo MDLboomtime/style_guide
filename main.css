@@ -46,11 +46,13 @@
     border: 2px dashed #2db911;
     border-top-style: double;
     border-top-width: 6px;
+    background: none;
 }
 .mw-collapsible-toggle.ticket_close {
     border: 2px dashed #f03a17;
     border-bottom-style: double;
     border-bottom-width: 6px;
+    background: none;
 }
 
 .large.icon_dp:before {
