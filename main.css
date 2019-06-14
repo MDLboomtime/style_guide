@@ -44,9 +44,13 @@
 
 .mw-collapsible-toggle.ticket_creation {
     border: 2px dashed #2db911;
+    border-top-style: double;
+    border-top-width: 6px;
 }
 .mw-collapsible-toggle.ticket_close {
     border: 2px dashed #f03a17;
+    border-bottom-style: double;
+    border-bottom-width: 6px;
 }
 
 .large.icon_dp:before {
