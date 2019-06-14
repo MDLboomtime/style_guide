@@ -390,3 +390,16 @@ a.mw-collapsible-text {
 }
 /* ^^^ Intro Boxes         ^^^ */
 /* --------------------------- */
+/* vvv Tickets             vvv */
+
+#ticket-title:before {
+    content: "🏷️";
+}
+
+#ticket-description:before {
+    content: "📑";
+}
+
+/* ^^^ Tickets             ^^^ */
+/* --------------------------- */
+/* vvv                     vvv */
