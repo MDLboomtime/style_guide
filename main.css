@@ -369,7 +369,7 @@ a.mw-collapsible-text {
 
 div.ticket {
     width: 100%;
-    max-width: 1000px;
+    max-width: 600px;
     background: #eee;
     padding: 5px;
     margin: 25px auto;
@@ -393,6 +393,7 @@ div.ticket {
     border: 1px solid gray;
     border-radius: 15px;
     padding: 3px;
+    margin: 0 1px;
     text-align: center;
 }
 
