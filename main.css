@@ -402,6 +402,11 @@ div.ticket {
     font-weight: bold;
 }
 
+.ticket-title>* {
+    margin: 5px;
+    padding: 5px;
+}
+
 /* ^^^ Tickets             ^^^ */
 /* --------------------------- */
 /* vvv                     vvv */
