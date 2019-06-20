@@ -400,11 +400,8 @@ div.ticket {
 .ticket-title {
     font-size: larger;
     font-weight: bold;
-}
-
-.ticket-title>* {
-    margin: 5px;
-    padding: 5px;
+    margin: 0 5px;
+    padding: 0 5px;
 }
 
 /* ^^^ Tickets             ^^^ */
