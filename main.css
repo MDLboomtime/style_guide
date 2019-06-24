@@ -370,7 +370,8 @@ a.mw-collapsible-text {
 
 div.ticket {
     background: #eee;
-    padding: 5px 1%;
+    padding: 10px 1%;
+	margin-bottom: 20px;
 	border-left: 16px solid #999;
 }
 
@@ -403,16 +404,16 @@ div.ticket {
 /* vvv Mailchimp                    vvv */
 
 .mailchimp{
-	background: #fffdf1; padding: 10px 1%; border-left: 16px solid #ffe01b;
+	background: #fffdf1; padding: 10px 1%; margin-bottom: 20px; border-left: 16px solid #ffe01b;
 }
 
 .optinmonster
 {
-	background: #fcfff6; padding: 10px 1%; border-left: 16px solid #71b406;
+	background: #fcfff6; padding: 10px 1%; margin-bottom: 20px; border-left: 16px solid #71b406;
 }
 
 .fuse{
-	background: #fff9f9; padding: 10px 1%; border-left: 16px solid #cd1f31;
+	background: #fff9f9; padding: 10px 1%; margin-bottom: 20px; border-left: 16px solid #cd1f31;
 }
 
 
