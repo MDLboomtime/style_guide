@@ -11,6 +11,7 @@
 
 .mw-collapsible-content{
 	margin-bottom: 35px;
+	margin-top: 10px;
 }
 
 .mw-collapsible-toggle{
@@ -383,7 +384,7 @@ div.ticket {
     background: white;
     border: 1px solid black;
     padding: 5px;
-  
+    margin: 5px;
     grid-area: d;
 }
 
@@ -399,7 +400,7 @@ div.ticket {
 .ticket-title {
     font-size: larger;
     font-weight: bold;
-    padding: 2px;
+    padding: 5px;
 }
 
 /* ^^^ Tickets             ^^^ */
