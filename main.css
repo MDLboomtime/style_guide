@@ -387,9 +387,12 @@ div.ticket {
     background: white;
     border: 1px solid gray;
     border-radius: 15px;
-    padding: 3px;
+    padding: 7px;
     margin: 0 1px;
     text-align: center;
+	float: right;
+    font-size: 12px;
+    font-weight: normal;
 }
 
 .ticket-title {
