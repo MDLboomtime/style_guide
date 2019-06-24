@@ -369,15 +369,14 @@ a.mw-collapsible-text {
 
 div.ticket {
     width: 100%;
-    max-width: 1080px;
     background: #eee;
-    /*margin: 25px auto;*/
     display: grid;
     grid-template-areas: "a b c" "d d d";
     grid-template-columns: 1fr 100px 100px;
     grid-row-gap: 5px;
     grid-column-gap: 5px;
     padding: 5px;
+	border-left: 16px solid #999;
 }
 
 .ticket-description {
