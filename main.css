@@ -372,10 +372,6 @@ div.ticket {
     width: 100%;
     background: #eee;
     display: grid;
-    grid-template-areas: "a b c" "d d d";
-    grid-template-columns: 1fr 100px 100px;
-    grid-row-gap: 5px;
-    grid-column-gap: 5px;
     padding: 5px;
 	border-left: 16px solid #999;
 }
@@ -385,7 +381,6 @@ div.ticket {
     border: 1px solid black;
     padding: 5px;
     margin: 5px;
-    grid-area: d;
 }
 
 .attribute {
