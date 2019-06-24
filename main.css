@@ -369,7 +369,6 @@ a.mw-collapsible-text {
 /* vvv Tickets             vvv */
 
 div.ticket {
-    width: 100%;
     background: #eee;
     padding: 5px 1%;
 	border-left: 16px solid #999;
@@ -379,7 +378,7 @@ div.ticket {
     background: white;
     border: 1px solid black;
     padding: 5px;
-    margin: 5px;
+    margin: 15px 5px;
 }
 
 .attribute {
