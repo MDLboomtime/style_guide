@@ -372,7 +372,7 @@ div.ticket {
     width: 100%;
     background: #eee;
     display: grid;
-    padding: 5px;
+    padding: 5px 1%;
 	border-left: 16px solid #999;
 }
 
