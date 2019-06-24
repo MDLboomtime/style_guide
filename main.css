@@ -415,3 +415,15 @@ div.ticket {
 	background: #fff9f9; padding: 10px 1%; border-left: 16px solid #cd1f31;
 }
 
+
+.tooltip{
+	font-weight:bold;background:black;color:white;width:20px;height:20px;border-radius:10px;text-align:center;display:inline-block;
+}
+
+.redborder{
+	border: 3px solid red; padding:5px; background-color: #ededed;
+}
+
+.alert-box{
+	float:right;margin:1%;background: #eee9;padding: 1%;
+}
