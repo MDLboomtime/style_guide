@@ -94,23 +94,12 @@ div#mw-panel {
 	padding-bottom: 0;
 }
 
-.stage .mw-collapsible-toggle.ticket_creation {
-    border: 2px dashed #2db911;
-    border-top-style: double;
-    border-top-width: 6px;
-}
-.stage .mw-collapsible-toggle.ticket_close {
-    border: 2px dashed #f03a17;
-    border-bottom-style: double;
-    border-bottom-width: 6px;
-}
-
-.stage .mw-collapsible-toggle-collapsed.custom:before {
+.stage div.mw-collapsible-toggle-collapsed.custom:before {
     content: "🔺";
     float: right;
 }
 
-.stage .mw-collapsible-toggle-expanded:before {
+.stage div.mw-collapsible-toggle-expanded:before {
     content: "🔻";
     float: right;
 }
@@ -120,6 +109,17 @@ div#mw-panel {
     margin-left: 90px;
     position: relative;
     top: -25px;
+}
+
+.stage .mw-collapsible-toggle.ticket_creation {
+    border: 2px dashed #2db911;
+    border-top-style: double;
+    border-top-width: 6px;
+}
+.stage .mw-collapsible-toggle.ticket_close {
+    border: 2px dashed #f03a17;
+    border-bottom-style: double;
+    border-bottom-width: 6px;
 }
 
 .large.icon_dp:before {
@@ -151,8 +151,8 @@ div#mw-panel {
     flex-direction: column;
     justify-content: center;
     padding: 0 5px;
-}
 /* ^^^ Stages              ^^^ */
+}
 /* --------------------------- */
 /* vvv Collapsing Sections vvv */
 .mw-collapsible {
