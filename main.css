@@ -1,69 +1,3 @@
-.mw-collapsible-wrapper{
-    margin-right: 35px;
-    margin-left: 90px;
-    position: relative;
-    top: -25px;
-}
-
-.mw-collapsed {
-    margin-bottom: 35px;
-}
-
-.mw-collapsible-content{
-	margin-bottom: 35px;
-	margin-top: 10px;
-}
-
-.mw-collapsible-toggle{
-	padding: 15px;
-}
-
-.mw-collapsible-toggle.ticket_creation {
-    border: 2px dashed #2db911;
-    border-top-style: double;
-    border-top-width: 6px;
-}
-.mw-collapsible-toggle.ticket_close {
-    border: 2px dashed #f03a17;
-    border-bottom-style: double;
-    border-bottom-width: 6px;
-}
-
-.large.icon_dp:before {
-    width: 50px;
-    height: 50px;
-    font-size: 35px;
-    margin: 0 0 0 5px;
-}
-.stage {
-    display: flex;
-    padding: 15px 0;
-    background: #6b818c0f;
-}
-.stage-name {
-    font-size: large;
-    font-weight: bold;
-}
-.stage-description {
-    border: 1px solid #00000063;
-    background: #00000002;
-}
-.tldr {
-    display: flex;
-}
-.stage-name {
-    flex: 1 1 250px;
-}
-.stage-description {
-    flex-shrink: 1;
-}
-.tldr>* {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 0 5px;
-}
-/* --------------------------- */
 /* --------------------------- */
 /* vvv Page Layout         vvv */
 /* Squish the logo */
@@ -144,6 +78,82 @@ div#mw-panel {
 
 /* ^^^ Page Ribbon         ^^^ */
 /* --------------------------- */
+/* vvv Stages              vvv */
+
+.stage.mw-collapsed {
+    margin-bottom: 35px;
+}
+
+.stage .mw-collapsible-content{
+	margin-bottom: 35px;
+	margin-top: 10px;
+}
+
+	padding: 15px;
+.stage .mw-collapsible-toggle{
+	padding-bottom: 0;
+}
+
+.stage .mw-collapsible-toggle.ticket_creation {
+    border: 2px dashed #2db911;
+    border-top-style: double;
+    border-top-width: 6px;
+}
+.stage .mw-collapsible-toggle.ticket_close {
+    border: 2px dashed #f03a17;
+    border-bottom-style: double;
+    border-bottom-width: 6px;
+}
+
+.stage .mw-collapsible-toggle-collapsed.custom:before {
+    content: "🔺";
+    float: right;
+}
+
+.stage .mw-collapsible-toggle-expanded:before {
+    content: "🔻";
+    float: right;
+}
+
+.stage .mw-collapsible-wrapper{
+    margin-right: 35px;
+    margin-left: 90px;
+    position: relative;
+    top: -25px;
+}
+
+.large.icon_dp:before {
+    width: 50px;
+    height: 50px;
+    font-size: 35px;
+    margin: 0 0 0 5px;
+}
+
+.stage-name {
+    font-size: large;
+    font-weight: bold;
+}
+.stage-description {
+    border: 1px solid #00000063;
+    background: #00000002;
+}
+.tldr {
+    display: flex;
+}
+.stage-name {
+    flex: 1 1 250px;
+}
+.stage-description {
+    flex-shrink: 1;
+}
+.tldr>* {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 5px;
+}
+/* ^^^ Stages              ^^^ */
+/* --------------------------- */
 /* vvv Collapsing Sections vvv */
 .mw-collapsible {
     display: flex;
@@ -160,13 +170,11 @@ div#mw-panel {
 .mw-collapsible-toggle-expanded:after {
     content: "";
 }
-.mw-collapsible-toggle-collapsed.custom:before {
-    content: "🔺";    
-    float: right;
+.mw-collapsible-toggle-collapsed:before {
+    content: "🔻";
 }
 .mw-collapsible-toggle-expanded:before {
-    content: "🔻";    
-    float: right;
+    content: "🔺";
 }
 
 span.mw-collapsible-toggle {
@@ -401,30 +409,3 @@ div.ticket {
 
 /* ^^^ Tickets             ^^^ */
 /* --------------------------- */
-/* vvv Mailchimp                    vvv */
-
-.mailchimp{
-	background: #fffdf1; padding: 10px 1%; margin-bottom: 20px; border-left: 16px solid #ffe01b;
-}
-
-.optinmonster
-{
-	background: #fcfff6; padding: 10px 1%; margin-bottom: 20px; border-left: 16px solid #71b406;
-}
-
-.fuse{
-	background: #fff9f9; padding: 10px 1%; margin-bottom: 20px; border-left: 16px solid #cd1f31;
-}
-
-
-.tooltip{
-	font-weight:bold;background:black;color:white;width:20px;height:20px;border-radius:10px;text-align:center;display:inline-block;
-}
-
-.redborder{
-	border: 3px solid red; padding:5px; background-color: #ededed;
-}
-
-.alert-box{
-	float:right;margin:1%;background: #eee9;padding: 1%;
-}
