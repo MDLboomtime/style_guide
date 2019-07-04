@@ -255,6 +255,14 @@ a.mw-collapsible-text {
     border-color: #0ecad4;
     background-color: #0ecad414;
 }
+.fuse2 {
+    border-color: #cd1f31;
+    background-color: #fffafa;;
+}
+.fuse {
+    background: #f9fbf8;
+    border-left: 15px solid #714f99;
+}
 /* ^^^ Platforms           ^^^ */
 /* --------------------------- */
 /* vvv Gallery             vvv */
@@ -377,34 +385,47 @@ a.mw-collapsible-text {
 /* vvv Tickets             vvv */
 
 div.ticket {
+    width: 100%;
+    max-width: 1000px;
     background: #eee;
-    padding: 10px 1%;
-	margin-bottom: 20px;
-	border-left: 16px solid #999;
+    padding: 5px;
+    margin: 15px auto;
+    border-left: 5px dashed #555;
+  
+    display: grid;
+    grid-template-areas: "a b" "c c";
+    grid-template-columns: 1fr 50%;
+}
+
+.ticket-attrbutes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  
+    grid-area: b;
 }
 
 .ticket-description {
     background: white;
     border: 1px solid black;
     padding: 5px;
-    margin: 15px 5px;
+    margin: 5px;
+  
+    grid-area: c;
 }
 
 .attribute {
     background: white;
     border: 1px solid gray;
     border-radius: 15px;
-    padding: 7px;
-    margin: 0 1px;
+    padding: 3px;
     text-align: center;
-	float: right;
-    font-size: 12px;
-    font-weight: normal;
+    height: max-content;
 }
 
 .ticket-title {
     font-size: larger;
-    padding: 5px;
+    font-weight: bold;
 }
 
 /* ^^^ Tickets             ^^^ */
