@@ -84,7 +84,7 @@ div#mw-panel {
     margin-bottom: 1%;
 }
 
-.stage .mw-collapsible-toggle{
+.stage .mw-collapsible-toggle.custom {
     padding: 5px;
     padding-bottom: 0;
     background: #f8f9fa;
