@@ -80,8 +80,12 @@ div#mw-panel {
 /* --------------------------- */
 /* vvv Stages              vvv */
 
-.stage.mw-made-collapsible{
+.stage.mw-made-collapsible {
     margin-bottom: 1%;
+}
+
+.stage.mw-collapsible-toggle {
+    background: #f8f9fa;
 }
 
 .stage .mw-collapsible-toggle{
@@ -381,7 +385,7 @@ a.mw-collapsible-text {
 div.ticket {
     width: 100%;
     max-width: 1000px;
-    background: #929090;
+    background: #818598;
     padding: 5px;
     margin: 15px auto;
     border-left: 5px dashed #fff;
