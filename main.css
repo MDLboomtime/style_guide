@@ -424,7 +424,6 @@ div.ticket {
 }
 
 .ticket-title {
-    .ticket-title {
     font-size: larger;
     font-weight: bold;
     padding: 0 5px;
@@ -432,7 +431,6 @@ div.ticket {
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
 }
 
 /* ^^^ Tickets             ^^^ */
