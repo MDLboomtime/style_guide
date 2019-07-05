@@ -81,15 +81,9 @@ div#mw-panel {
 /* vvv Stages              vvv */
 
 .stage.mw-collapsed {
-    margin-bottom: 35px;
+    margin-bottom: 1%;
 }
 
-.stage .mw-collapsible-content{
-	margin-bottom: 35px;
-	margin-top: 10px;
-}
-
-	padding: 15px;
 .stage .mw-collapsible-toggle{
 	padding-bottom: 0;
 }
