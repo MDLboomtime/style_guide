@@ -80,7 +80,7 @@ div#mw-panel {
 /* --------------------------- */
 /* vvv Stages              vvv */
 
-.stage.mw-collapsed {
+.stage.mw-made-collapsible{
     margin-bottom: 1%;
 }
 
