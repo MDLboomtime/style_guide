@@ -84,12 +84,10 @@ div#mw-panel {
     margin-bottom: 1%;
 }
 
-.stage.mw-collapsible-toggle {
-    background: #f8f9fa;
-}
-
 .stage .mw-collapsible-toggle{
-	padding-bottom: 0;
+    padding: 5px;
+    padding-bottom: 0;
+    background: #f8f9fa;
 }
 
 .stage div.mw-collapsible-toggle-collapsed.custom:before {
