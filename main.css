@@ -381,10 +381,11 @@ a.mw-collapsible-text {
 div.ticket {
     width: 100%;
     max-width: 1000px;
-    background: #eee;
+    background: #929090;
     padding: 5px;
     margin: 15px auto;
-    border-left: 5px dashed #555;
+    border-left: 5px dashed #fff;
+    box-shadow: 2px 2px 4px 0px #000000a1;
   
     display: grid;
     grid-template-areas: "a b" "c c";
@@ -401,7 +402,6 @@ div.ticket {
 
 .ticket-description {
     background: white;
-    border: 1px solid black;
     padding: 5px;
     margin: 5px;
   
@@ -410,14 +410,15 @@ div.ticket {
 
 .attribute {
     background: white;
-    border: 1px solid gray;
     border-radius: 15px;
     padding: 3px;
+    margin: 3px;
     text-align: center;
     height: max-content;
 }
 
 .ticket-title {
+    color: white;
     font-size: larger;
     font-weight: bold;
     padding: 0 5px;
