@@ -7,21 +7,26 @@
     background-size: cover;
     margin: 5%;
 }
+
 /* Hide remnant container blocking page content */
 div#mw-panel {
     padding: 0;
     top: 0;
 }
+
 #p-logo {
     height: unset;
     top: 0;
 }
+
 #p-navigation {
     display: none;
 }
+
 #p-tb {
     display: none;
 }
+
 #content {
     margin-left: 0;
 }
@@ -38,33 +43,23 @@ div#mw-panel {
     left: 50%;
     margin-left: -50vw;
     position: relative;
-    margin-bottom: 50px;
-    /*margin-top: 50px;*/
-    /*box-shadow: 0 7px 7px 3px #00000052;*/
+    margin-bottom: 50px
 }
 
 #overview {
-    /*background: #909090;*/
-    /*color: #f5f5f5;*/
     padding: 15px 30px 15px 30px;
     margin-bottom: 5px;
     box-sizing: border-box;
 }
-/*#overview .step {
-    position: relative;
-    top: -15px;
-}*/
 
-#overview .gallery > * {
-    flex: 1 1 250px;
-    margin: 5px;
-}
 .gallery .box_dept {
     background: #DFDFDF;
 }
+
 .gallery .box_update {
     background: #EEEEEE;
 }
+
 .gallery .links{
 	background: #F9F9F9;
 }
@@ -74,7 +69,6 @@ div#mw-panel {
     box-shadow: none;
     border: none;
 }
-
 
 /* ^^^ Page Ribbon         ^^^ */
 /* --------------------------- */
@@ -111,6 +105,7 @@ div#mw-panel {
 .stage .mw-collapsible-toggle.ticket_creation {
     background: #e6f9de;
 }
+
 .stage .mw-collapsible-toggle.ticket_close {
     background: #ffe6e5;
 }
@@ -126,46 +121,56 @@ div#mw-panel {
     font-size: large;
     font-weight: bold;
 }
+
 .stage-description {
     border: 1px solid #00000063;
     background: #00000002;
 }
+
 .tldr {
     display: flex;
 }
+
 .stage-name {
     flex: 1 1 250px;
 }
+
 .stage-description {
     flex-shrink: 1;
 }
+
 .tldr>* {
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 0 5px;
-/* ^^^ Stages              ^^^ */
 }
+
+/* ^^^ Stages              ^^^ */
 /* --------------------------- */
 /* vvv Collapsing Sections vvv */
 .mw-collapsible {
     display: flex;
     flex-direction: column;
 }
+
 .mw-collapsible {
     display: flex;
     flex-direction: column;
 }
+
 .mw-collapsible-toggle-collapsed:after {
     content: "";
-    
 }
+
 .mw-collapsible-toggle-expanded:after {
     content: "";
 }
+
 .mw-collapsible-toggle-collapsed:before {
     content: "🔻";
 }
+
 .mw-collapsible-toggle-expanded:before {
     content: "🔺";
 }
@@ -176,18 +181,22 @@ span.mw-collapsible-toggle {
     padding: 0.5%;
     border-radius: 5px;
 }
+
 a.mw-collapsible-text {
     color: #EEE5E9; /* off white */
     text-transform: uppercase;
     letter-spacing: 1.25px;
     font-weight: bold;
 }
+
 .mw-collapsible-content {
     padding: 1% 2%;
 }
+
 /* ^^^ Collapsing Sections ^^^ */
 /* --------------------------- */
 /* vvv Tooltips            vvv */
+
 .tooltip {
     font-weight: bold;
     background: #737373;
@@ -198,27 +207,34 @@ a.mw-collapsible-text {
     text-align: center;
     display: inline-block;
 }
+
 /* ^^^ Tooltips            ^^^ */
 /* --------------------------- */
 /* vvv Warning             vvv */
+
 .warning {
     background: #FF8552;
     color: black;
     padding: 1px;
 }
+
 .warning:before, .warning:after {
     content: "⚠️";
 }
+
 /* ^^^ Warning             ^^^ */
 /* --------------------------- */
 /* vvv Floating Box        vvv */
+
 .side_by_side {
     display: flex;
     flex-wrap: wrap;
 }
+
 .side_by_side > *:nth-child(1) {
     flex: 1 1 500px;
 }
+
 .side_box {
     flex: 1 1 35%;
     min-width: 250px;
@@ -227,9 +243,11 @@ a.mw-collapsible-text {
     border:1px solid;
     margin:1%;
 }
+
 /* ^^^ Floating Box        ^^^ */
 /* --------------------------- */
 /* vvv Platforms           vvv */
+
 .platform {
     position: relative;
     background: #f6f6f6;
@@ -239,43 +257,53 @@ a.mw-collapsible-text {
     margin: 1% 0;
     border-radius: 15px;
 }
+
 .optinmonster {
     border-color: #6aa807;
     background-color: #6aa80714;
 }
+
 .mailchimp {
     border-color: #ffe01b;
     background-color: #ffe01b14;
 }
+
 .wpengine {
     border-color: #0ecad4;
     background-color: #0ecad414;
 }
+
 .fuse2 {
     border-color: #cd1f31;
     background-color: #fffafa;;
 }
+
 .fuse {
     background: #f9fbf8;
     border-left: 15px solid #714f99;
 }
+
 /* ^^^ Platforms           ^^^ */
 /* --------------------------- */
 /* vvv Gallery             vvv */
+
 .gallery {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     margin: -5px;
 }
+
 .gallery > * {
     flex: 1 1 250px;
     margin: 5px;
     margin-top: 20px;
 }
+
 /* ^^^ Gallery             ^^^ */
 /* --------------------------- */
 /* vvv Step                vvv */
+
 .step {
     background: #ffffff;
     color: black;
@@ -293,9 +321,11 @@ a.mw-collapsible-text {
     position: absolute;
     top: -15px;
 }
+
 /* ^^^ Step                ^^^ */
 /* --------------------------- */
 /* vvv Intro Boxes         vvv */
+
 .intro_box {
     display: flex;
     flex-direction: column;
@@ -304,13 +334,15 @@ a.mw-collapsible-text {
     width: max-content;
     padding: 5px;
 }
-}
+
 .intro_box.box_dept-header {
     font-size: 1.5em;
 }
-.mw-collapsible-toggle .icon_dp{
+
+.mw-collapsible-toggle .icon_dp {
 	float: left;
 }
+
 .icon_dp:before {
     content: "";
     background: gray;
@@ -322,41 +354,49 @@ a.mw-collapsible-text {
     font-size: 27px;
     border-radius: 50%;
 }
+
 .icon_dp.ticket_creation:before {
     content: "🏁";
     background: lightgray;
     border: 5px solid #2db911;
 }
+
 .icon_dp.ticket_close:before {
     content: "⛳";
     background: lightgray;
     border: 5px solid #f03a17;
 }
+
 .icon_dp.engineer:before {
     content: "🛠️";
     background: yellow;
     border: 5px solid #ffc500;
 }
+
 .icon_dp.strategist:before {
     content: "🎯️";
     background: #000;
     border: 5px solid #999;
 }
+
 .icon_dp.dev:before {
     content: "💻️";
     background: #ca8d89;
     border: 5px solid #795454;
 }
+
 .icon_dp.webdev:before {
     content: "🌐️";
     background: #4e76a0;
     border: 5px solid #82a7b3;
 }
+
 .icon_dp.design:before {
     content: "🎨️";
     background: #cc2032;
     border: 5px solid #ec4f5f;
 }
+
 .box_update-datestamp {
     color: red;
     background: #ffffff88;
@@ -367,12 +407,15 @@ a.mw-collapsible-text {
     font-size: x-large;
     margin: 1.25% auto;
 }
+
 #see_also:before {
     content: "See Also:";
 }
+
 .see_also-link:before {
     content: "🔹 ";
 }
+
 /* ^^^ Intro Boxes         ^^^ */
 /* --------------------------- */
 /* vvv Tickets             vvv */
