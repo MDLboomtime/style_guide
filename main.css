@@ -88,6 +88,7 @@ div#mw-panel {
     padding: 5px;
     padding-bottom: 0;
     background: #f8f9fa;
+    box-shadow: 4px 4px 4px #0000002e;
 }
 
 .stage div.mw-collapsible-toggle-collapsed.custom:before {
