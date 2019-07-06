@@ -232,7 +232,6 @@ a.mw-collapsible-text {
     padding: 5px;
     padding-top: 1px;
     margin: 1% 0;
-    width: max-content;
     border-radius: 15px;
 }
 .optinmonster {
@@ -377,7 +376,6 @@ a.mw-collapsible-text {
 /* vvv Tickets             vvv */
 
 div.ticket {
-    width: 100%;
     max-width: 1000px;
     background: #818598;
     padding: 5px;
