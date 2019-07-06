@@ -88,7 +88,7 @@ div#mw-panel {
     padding: 5px;
     padding-bottom: 0;
     background: #f8f9fa;
-    box-shadow: 4px 4px 4px #0000002e;
+    box-shadow: 4px 4px 4px 0 #00000030;
 }
 
 .stage div.mw-collapsible-toggle-collapsed.custom:before {
@@ -182,6 +182,9 @@ a.mw-collapsible-text {
     letter-spacing: 1.25px;
     font-weight: bold;
 }
+.mw-collapsible-content {
+    padding: 1% 2%;
+}
 /* ^^^ Collapsing Sections ^^^ */
 /* --------------------------- */
 /* vvv Tooltips            vvv */
@@ -231,7 +234,7 @@ a.mw-collapsible-text {
     position: relative;
     background: #f6f6f6;
     border-left: 15px solid #afafaf;
-    box-shadow: 4px 7px 7px #00000030;
+    box-shadow: 4px 4px 4px #00000030;
     padding: 15px;
     margin: 1% 0;
     border-radius: 15px;
@@ -385,7 +388,7 @@ div.ticket {
     padding: 5px;
     margin: 15px auto;
     border-left: 5px dashed #fff;
-    box-shadow: 2px 2px 4px 0px #000000a1;
+    box-shadow: 2px 2px 2px 0px #000000a1;
   
     display: grid;
     grid-template-areas: "a b" "c c";
