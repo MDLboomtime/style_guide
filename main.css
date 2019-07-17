@@ -85,15 +85,17 @@ div#mw-panel {
     box-shadow: 4px 4px 4px 0 #00000030;
 }
 
+
 .stage div.mw-collapsible-toggle-collapsed.custom:before {
-    content: "🔺";
+    content: ""; /*🔺*/
     float: right;
 }
 
 .stage div.mw-collapsible-toggle-expanded:before {
-    content: "🔻";
+    content: ""; /*🔻*/
     float: right;
 }
+
 
 .stage .mw-collapsible-wrapper{
     margin-right: 35px;
@@ -144,6 +146,24 @@ div#mw-panel {
     flex-direction: column;
     justify-content: center;
     padding: 0 5px;
+}
+
+body div.mw-parser-output div.edit_button h1 {
+    border: none;
+    position: absolute;
+    right: 5px;
+    margin-top: 0;
+}
+.edit_button .mw-headline, .edit_button .mw-editsection-bracket {
+    display: none;
+}
+
+.edit_button .mw-editsection {
+    margin: 0;
+}
+
+.edit_button a:before {
+    content: "✏️";
 }
 
 /* ^^^ Stages              ^^^ */
