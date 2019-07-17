@@ -75,13 +75,13 @@ div#mw-panel {
 /* vvv Stages              vvv */
 
 .stage.mw-made-collapsible {
-    margin-bottom: 1%;
+    margin-bottom: 1.5%;
 }
 
 .stage .mw-collapsible-toggle.custom {
     padding: 5px;
     padding-bottom: 0;
-    background: #f8f9fa;
+    background: #f9f0de;
     box-shadow: 4px 4px 4px 0 #00000030;
 }
 
