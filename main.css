@@ -471,5 +471,12 @@ div.ticket {
     justify-content: center;
 }
 
+.ticket-action_icon {
+    background: white;
+    border-radius: 50%;
+    padding: 3px;
+    margin-right: 15px;
+}
+
 /* ^^^ Tickets             ^^^ */
 /* --------------------------- */
