@@ -82,9 +82,37 @@ div#mw-panel {
     padding: 5px;
     padding-bottom: 0;
     background: #f9f0de;
-    box-shadow: 4px 4px 4px 0 #00000030;
+    transition: background .25s;
+    box-shadow: 2px 2px 2px 0 #00000030;
+    transition: box-shadow .25s;
 }
 
+.stage .mw-collapsible-toggle.custom:hover {
+    box-shadow: 4px 4px 4px 0 #00000030;
+    transition: box-shadow .25s;
+    background-color: #f9f0deb5;
+    transition: background .25s;
+}
+
+.stage .mw-collapsible-toggle.ticket_creation {
+    background: #e6f9de;
+    transition: background .25s;
+}
+
+.stage .mw-collapsible-toggle.ticket_creation:hover {
+    background: #e6f9deb5;
+    transition: background .25s;
+}
+
+.stage .mw-collapsible-toggle.ticket_close {
+    background: #ffe6e5;
+    transition: background .25s;
+}
+
+.stage .mw-collapsible-toggle.ticket_close:hover {
+    background: #ffe6e5b5;
+    transition: background .25s;
+}
 
 .stage div.mw-collapsible-toggle-collapsed.custom:before {
     content: ""; /*🔺*/
@@ -96,20 +124,11 @@ div#mw-panel {
     float: right;
 }
 
-
 .stage .mw-collapsible-wrapper{
     margin-right: 35px;
     margin-left: 90px;
     position: relative;
     top: -25px;
-}
-
-.stage .mw-collapsible-toggle.ticket_creation {
-    background: #e6f9de;
-}
-
-.stage .mw-collapsible-toggle.ticket_close {
-    background: #ffe6e5;
 }
 
 .large.icon_dp:before {
