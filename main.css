@@ -1,16 +1,6 @@
 /* --------------------------- */
 /* vvv Page Layout         vvv */
 
-/* apply a natural box layout model to all elements, but allowing components to change */
-*, *:before, *:after {
-  box-sizing: inherit;
-}
-
-html {
-  box-sizing: border-box;
-  width: 100vw;
-}
-
 /* Squish the logo */
 #p-logo a.mw-wiki-logo {
     width: 40px;
