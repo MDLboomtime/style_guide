@@ -625,6 +625,11 @@ a.mw-collapsible-text {
     padding-right: 5px;
 }
 
+.px-25px {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
 .pb-0 {
     padding-bottom: 0;
 }
