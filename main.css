@@ -246,6 +246,11 @@ a.mw-collapsible-text {
     border-left: 15px solid #714f99;
 }
 
+.analytics {
+    background: #eb7703;
+    border-left: 15px solid #eb77030d;
+}
+
 /* ^^^ Platforms           ^^^ */
 /* --------------------------- */
 /* vvv Step                vvv */
