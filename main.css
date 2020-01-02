@@ -422,8 +422,12 @@ a.mw-collapsible-text {
     box-shadow: 4px 4px 4px 0 rgba(0,0,0,.19);
  }
 
- .transition-shadow, .transition-shadow:hover {
-    transition: box-shadow .25s;
+ .transition-025, .transition-025:hover {
+    transition: all .25s;
+}
+
+.hover\:transform-102:hover {
+	transform: scale(1.02);
 }
 
 
