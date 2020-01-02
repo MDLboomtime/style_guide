@@ -428,6 +428,7 @@ a.mw-collapsible-text {
 
 .hover\:transform-102:hover {
 	transform: scale(1.02);
+	z-index: -1;
 }
 
 
@@ -476,6 +477,7 @@ a.mw-collapsible-text {
 .inline-block	{ display: inline-block; }
 .inline	{ display: inline; }
 .inline-flex	{ display: inline-flex; }
+.hidden { display: none; }
 
 .flex-horizonal {
     display: flex;
