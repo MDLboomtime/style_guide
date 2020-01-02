@@ -459,6 +459,10 @@ a.mw-collapsible-text {
     height: max-content;
 }
 
+.h-fit {
+	height:fit-content;
+}
+
 .align_center {
     text-align: center;
 }
