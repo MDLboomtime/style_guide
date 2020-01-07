@@ -428,7 +428,6 @@ a.mw-collapsible-text {
 
 .hover\:transform-102:hover {
 	transform: scale(1.02);
-	z-index: -1;
 }
 
 
